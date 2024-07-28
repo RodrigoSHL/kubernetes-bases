@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: docker-getting
+  labels:
+    estado: "desarrollo"
+spec:
+  containers:
+   - name: docker-getting
+     image: docker/getting-started
